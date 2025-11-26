@@ -54,25 +54,108 @@ const templates: Template[] = [
     image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/2a91e630-649a-48da-9ecb-929850892622.jpg',
     textColor: 'text-white',
     icon: 'Plane'
+  },
+  {
+    id: 7,
+    name: 'Зимний лес',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/50c371e5-1615-4c02-95ff-0245467d4cc4.jpg',
+    textColor: 'text-white',
+    icon: 'Trees'
+  },
+  {
+    id: 8,
+    name: 'Уютный камин',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/e2c07a18-3884-48db-8eaa-fee59912f03c.jpg',
+    textColor: 'text-white',
+    icon: 'Flame'
+  },
+  {
+    id: 9,
+    name: 'Каток',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/453f415c-8195-4a4e-8000-609cb1e19ae2.jpg',
+    textColor: 'text-white',
+    icon: 'Snowflake'
+  },
+  {
+    id: 10,
+    name: 'Северное сияние',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/12e5a396-e5a0-4eb0-9627-f25869174cc7.jpg',
+    textColor: 'text-white',
+    icon: 'Stars'
+  },
+  {
+    id: 11,
+    name: 'Пряничный домик',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/33e709e1-bcb9-47be-ac67-8e0c9f281cc2.jpg',
+    textColor: 'text-white',
+    icon: 'Cookie'
+  },
+  {
+    id: 12,
+    name: 'Полночь',
+    image: 'https://cdn.poehali.dev/projects/e15b40d0-7d98-491e-b0fe-88d3cd79e40b/files/f8f2d4ee-6a6f-4e56-8773-b2be176101f3.jpg',
+    textColor: 'text-white',
+    icon: 'Clock'
   }
 ];
 
 const greetingVariants = [
-  "С Новым 2025 Годом!\n\nПусть этот год принесет счастье, здоровье и исполнение всех желаний!",
-  "Поздравляем с Новым Годом!\n\nЖелаем радости, успеха и волшебных моментов в наступающем году!",
-  "С Новым 2025 Годом!\n\nПусть каждый день будет наполнен теплом, любовью и яркими впечатлениями!",
-  "Счастливого Нового Года!\n\nЖелаем, чтобы все мечты сбылись, а год был полон побед и открытий!",
-  "С праздником!\n\nПусть Новый Год принесет море позитива, крепкое здоровье и благополучие!",
-  "Новый Год стучится в дверь!\n\nЖелаем вам волшебства, улыбок и незабываемых моментов!",
-  "С Новым 2025 Годом!\n\nПусть удача сопутствует вам во всем, а дом будет полон счастья!",
-  "Поздравляем!\n\nЖелаем яркого Нового Года, полного вдохновения, любви и процветания!",
-  "С Новым Годом!\n\nПусть морозная сказка принесет чудеса, а год будет самым лучшим!",
-  "Счастливого Нового 2025 Года!\n\nЖелаем добра, тепла и исполнения самых заветных желаний!"
+  "✨ С Новым 2025 Годом! ✨\n\nПусть этот волшебный год принесёт счастье, здоровье и исполнение всех заветных желаний! Пусть каждый день будет наполнен радостью и волшебством! 🎄",
+  
+  "🎄 Поздравляем с Новым Годом! 🎄\n\nЖелаем, чтобы новогодняя сказка продолжалась весь год! Пусть в вашей жизни будет много радости, тепла и волшебных моментов! ⭐",
+  
+  "⭐ С Новым 2025 Годом! ⭐\n\nПусть звёзды освещают ваш путь к успеху! Желаем любви, счастья и исполнения самых смелых мечтаний! Пусть год будет полон ярких впечатлений! ✨",
+  
+  "❄️ Счастливого Нового Года! ❄️\n\nПусть морозная сказка принесёт в ваш дом уют и радость! Желаем крепкого здоровья, благополучия и волшебных сюрпризов! 🎁",
+  
+  "🎁 С праздником! 🎁\n\nПусть Новый Год подарит океан позитива, море улыбок и исполнение всех желаний! Пусть каждый день приносит новые победы и открытия! 🌟",
+  
+  "🌟 Новый Год стучится в дверь! 🌟\n\nОткройте двери волшебству и чудесам! Желаем вам сказочного настроения, тёплых моментов с близкими и незабываемых впечатлений! ❄️",
+  
+  "🎊 С Новым 2025 Годом! 🎊\n\nПусть удача будет верной спутницей во всех начинаниях! Желаем, чтобы дом был полон счастья, смеха и любви! Пусть мечты сбываются! ✨",
+  
+  "💫 Поздравляем! 💫\n\nЖелаем яркого и волшебного Нового Года! Пусть он будет наполнен вдохновением, творчеством, любовью и процветанием! Счастья и радости вам! 🎄",
+  
+  "🎅 С Новым Годом! 🎅\n\nПусть Дед Мороз принесёт в ваш дом мешок счастья, здоровья и удачи! Желаем волшебных моментов и исполнения всех желаний! ⭐",
+  
+  "🎆 Счастливого Нового 2025 Года! 🎆\n\nПусть фейерверк эмоций освещает каждый ваш день! Желаем добра, тепла, успеха и невероятных приключений в наступающем году! 🎉",
+  
+  "🌠 С Новым Годом! 🌠\n\nПусть падающие звёзды исполняют ваши желания! Желаем волшебства, радости и удивительных открытий в новом году! Пусть всё сбывается! ✨",
+  
+  "🎀 Поздравляем с праздником! 🎀\n\nПусть Новый Год развяжет все узелки проблем и подарит море радости! Желаем тепла, уюта и сказочного настроения каждый день! 🎄",
+  
+  "❄️ С Новым 2025 Годом! ❄️\n\nПусть снежинки принесут в ваш дом счастье и благополучие! Желаем вам волшебных моментов, крепкого здоровья и любви близких! 💝",
+  
+  "🕯️ Счастливого праздника! 🕯️\n\nПусть свет новогодних свечей освещает путь к успеху! Желаем тепла, радости и исполнения всех заветных мечтаний! С Новым Годом! 🎊",
+  
+  "🎵 С Новым Годом! 🎵\n\nПусть жизнь звучит как новогодняя мелодия – радостно и волшебно! Желаем гармонии, счастья и удивительных сюрпризов от судьбы! ✨"
 ];
 
-const clickSound = () => {
-  const audio = new Audio('data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBSuBzvLZiTYIGGS56+ikTQ0OTqXh8LdkHQU2jdXyzHgrBSF0xPDhkj8KElyx6OyrWBIIQJrd8sFuIgUug8zx2YU0Bx5pu+vpoU0NCkqm4vO5ZCAFNY/V8st7KgQadrju35Q/CRRcsOjsq1cTCECa3fK+biEFLoHM8dqGNQkcabzr6aJNDQpKpuLzumQgBTSO1fLLeisEGnW38+CVOAUUW7Do7K1ZEwhAmt3yv24hBS6BzPHaiDUKGmi66+mjTQ4KSqbi9LxlIQU0j9b0zHssBhx4uvbglzsIFlyx6eyvWRQJQpze88F2JQYvgs/z3Ik3CRxqvO3rpE4OCkul4/S9ZiEGNZDW9c19LQYceLnz4Jc7CRVbr+jsr1kUCEKc3vPBdiYGLoPO89+KOQkcab3s66VPDwpLpeP0v2ciKgVmhuL1vWYiETWP1vXKeioPGnW38eGWOwkVW6/o7K9ZFNAJQ53e88J3JwYug8/z4os6Ch5rvu/sp1ESC0um5PXAaSMFNJHX9c18LgYbdbnz4JY7ChVbrujssVsVCESd3vPDeCkGL4PO8+KLOgoearbv7KhSEwtKpuP1wWkjBjWR1/bNfC4HG3W48+CWOwwVXK3o7LBbFglFnt/zxHkqBy+Dz/Pii zgKHmm37uypUhMLSqbj9cJqJAc1ktf2zX4vBxx1uPLglzsLFVyt6ey/WxYJRJ7f88R5KgcvhM/z4os6Ch5pu+/sq1QTC0ul5PXCaSQHNJLX9s1+Lwcdd7jy4Jc7DBVcrOnswFsXCkWe3/PEeSoHL4TP8+KLOgoeabvv7KtUEwtLpeT1wmkkBzOR1/bOf zAIHXa48uCXOwwVXK3p7MFbFwpFnt/zw3kpBy+Ez/Pii zgKHmm77+yrVBQLSqXj9cJpIwc0ktf2zn8vCB12uPLglzsNFVus6ezAWxcJRZ7f88N5KgYvg8/z4os6Ch5pu+7sq1QTC0ul5PXCaiQHNZLX9s5/Lwgdd7jy4Jc7DBVbrOjswFsWCUSd3vPDeSoGL4PP8+KLOgkeabvu7KtUEwtLpeP1w2okBzWS1/bOfzAIHXa48uCXOwwVW6zo7MBbFwpEnt7zw3kqBi+Dz/Pii zgLH2m87uyqUxMLSqXj9cNqJAc0ktf2zn8vCBx2uPLglzsNFVus6OzAWxcKRJ7e88N5KgYvg8/z4os6Cx5pu+7sq1QTC0ql4/XCaiQHNJLX9s5/Lwgcdrjy4Jc7DRVbrOjswFsWCkOd3vPDeSoGL4PP8+GLOgseabvu7KtUEwtKpeP1w2okBzSS1/bOfzAIHHa48uCWOwwVXKzo7L9bFgpDnd7zw3kqBi+Ez/Pii zgLHmq77+yrVBMLSqXj9cJpJAc0ktf2zn8wCBx2uPLgljsNFVus6OzAWxYKQ53e88N5KgYvhM/z4os6Cx5qu+/sq1QTC0ql4/XCaiQHNJLW9s1/MAcdd7jy4Jc7DBVbrOjswFsWCkOd3vPDeSoGL4TP8+KLOgsearvv7KtUEwtKpeP1wmokBzSS1vbNfzAIHXe48uCWOwwVW6zo7MFbFgpDnd7zw3kqBi+Dz/Pii zgLH2q77+yqVBMLSqXj9cJpJAc0ktb2zn8vCBx2uPLglzsNFVus6OzAWxYKRJ7e88J4KgYvg8/z4Ys6Cx5pu+/sqVQTC0ul4/XCaiQHNZLW9s1/Lwgdd7jy4JY7DBVbrOjswFsWCkOd3vPCeCkGL4PP8+KLOgoeabvv7KpUEwtKpOP1w2kjBzSS1vbOfy8IHXa58uCWOwwVW6zp7MFbFgpEnt7zwngpBy+Dz/Piizkj');
-  audio.play().catch(() => {});
+const magicSound = () => {
+  const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+  
+  const playTone = (frequency: number, startTime: number, duration: number) => {
+    const oscillator = audioContext.createOscillator();
+    const gainNode = audioContext.createGain();
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+    
+    oscillator.frequency.value = frequency;
+    oscillator.type = 'sine';
+    
+    gainNode.gain.setValueAtTime(0, startTime);
+    gainNode.gain.linearRampToValueAtTime(0.3, startTime + 0.01);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + duration);
+    
+    oscillator.start(startTime);
+    oscillator.stop(startTime + duration);
+  };
+
+  const now = audioContext.currentTime;
+  playTone(523.25, now, 0.15);
+  playTone(659.25, now + 0.1, 0.15);
+  playTone(783.99, now + 0.2, 0.2);
 };
 
 export default function CardGenerator() {
@@ -92,13 +175,13 @@ export default function CardGenerator() {
   }, []);
 
   const generateGreeting = () => {
-    clickSound();
+    magicSound();
     const randomIndex = Math.floor(Math.random() * greetingVariants.length);
     setGreetingText(greetingVariants[randomIndex]);
   };
 
   const downloadCard = async () => {
-    clickSound();
+    magicSound();
     const cardElement = document.getElementById('greeting-card');
     if (!cardElement) return;
 
@@ -115,7 +198,7 @@ export default function CardGenerator() {
   };
 
   const handleTemplateClick = (template: Template) => {
-    clickSound();
+    magicSound();
     setSelectedTemplate(template);
   };
 
@@ -201,7 +284,7 @@ export default function CardGenerator() {
                     <textarea
                       value={greetingText}
                       onChange={(e) => setGreetingText(e.target.value)}
-                      rows={5}
+                      rows={6}
                       className="w-full px-4 py-3 bg-white/90 border-2 border-pink-300 rounded-xl focus:ring-4 focus:ring-pink-400 outline-none text-lg resize-none"
                       placeholder="Напишите поздравление..."
                     />
@@ -247,7 +330,7 @@ export default function CardGenerator() {
                     </div>
 
                     <div className="text-center bg-black/50 backdrop-blur-sm rounded-2xl p-6">
-                      <div className={`${selectedTemplate.textColor} text-xl font-bold leading-relaxed whitespace-pre-line drop-shadow-lg`}>
+                      <div className={`${selectedTemplate.textColor} text-lg font-bold leading-relaxed whitespace-pre-line drop-shadow-lg`}>
                         {greetingText}
                       </div>
                     </div>
